@@ -63,7 +63,5 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: vepic/vepic-main/.output/public
-
-        with:
+          branch: gh-pages
           folder: vepic/vepic-main/.output/public
